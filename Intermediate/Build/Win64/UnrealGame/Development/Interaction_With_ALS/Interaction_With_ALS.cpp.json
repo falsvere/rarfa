@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\ue - projects\\ue-5\\iwals (naprawa) 5.0 - 2\\intermediate\\source\\interaction_with_als.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ue - projects\\ue-5\\iwals (naprawa) 5.0 - 2\\intermediate\\build\\win64\\interaction_with_als\\development\\core\\sharedpch.core.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\ue - projects\\ue-5\\iwals (naprawa) 5.0 - 2\\intermediate\\build\\win64\\unrealgame\\development\\interaction_with_als\\definitions.interaction_with_als.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
