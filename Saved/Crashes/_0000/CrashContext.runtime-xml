@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>221C55F645FACC2D45E1D2AFD9C0638E</ExecutionGuid>
+<CrashGUID>_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<ErrorMessage>Fatal error: [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Internationalization\ICUInternationalization.cpp] [Line: 153] 
+ICU data directory was not discovered:
+../../../IWALS (Version 2.4) UE5/Content/Internationalization
+../../../Engine/Content/Internationalization
+
+
+</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>0</ProcessId>
+<SecondsSinceStart>0</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-Interaction_With_ALS</GameName>
+<ExecutableName></ExecutableName>
+<BuildConfiguration></BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName></PlatformName>
+<PlatformNameIni></PlatformNameIni>
+<EngineMode></EngineMode>
+<EngineModeEx></EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.0.3-20979098+++UE5+Release-5.0</EngineVersion>
+<CommandLine></CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale></AppDefaultLocale>
+<BuildVersion>++UE5+Release-5.0-CL-20979098</BuildVersion>
+<Symbols></Symbols>
+<IsUERelease>false</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir></BaseDir>
+<RootDir></RootDir>
+<MachineId></MachineId>
+<LoginId></LoginId>
+<EpicAccountId></EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>0</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>0</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor></Misc.CPUVendor>
+<Misc.CPUBrand></Misc.CPUBrand>
+<Misc.PrimaryGPUBrand></Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor></Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>33492590592</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>58658414592</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>19818909696</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>36974944256</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>118067200</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>118067200</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>58605568</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>58613760</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>3</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+Interaction_With_ALS  0x00007ff6cea50000 + 204e6cc         
+Interaction_With_ALS  0x00007ff6cea50000 + 2044ae1         
+Interaction_With_ALS  0x00007ff6cea50000 + 20935fc         
+Interaction_With_ALS  0x00007ff6cea50000 + ad7e67          
+Interaction_With_ALS  0x00007ff6cea50000 + aedfb6          
+Interaction_With_ALS  0x00007ff6cea50000 + ae2306          
+Interaction_With_ALS  0x00007ff6cea50000 + ae266a          
+Interaction_With_ALS  0x00007ff6cea50000 + ae56ec          
+Interaction_With_ALS  0x00007ff6cea50000 + af6ea4          
+Interaction_With_ALS  0x00007ff6cea50000 + 8b9151a         
+KERNEL32              0x00007ff81aa10000 + 1257d           
+ntdll                 0x00007ff81c8f0000 + 5aa58           
+</PCallStack>
+<PCallStackHash>44D889E48C0B917456AEAD3765C16B98E5C9429C</PCallStackHash>
+<Threads><Thread><CallStack>ntdll                 0x00007ff81c8f0000 + 9f3f4           
+KERNELBASE            0x00007ff819fd0000 + 344ee           
+Interaction_With_ALS  0x00007ff6cea50000 + 2501f3d         
+Interaction_With_ALS  0x00007ff6cea50000 + 8bc596e         
+VCRUNTIME140          0x00007ff8003d0000 + f0e0            
+ntdll                 0x00007ff81c8f0000 + a441f           
+ntdll                 0x00007ff81c8f0000 + 1e466           
+ntdll                 0x00007ff81c8f0000 + 54475           
+KERNELBASE            0x00007ff819fd0000 + 6567c           
+Interaction_With_ALS  0x00007ff6cea50000 + 2505e1a         
+Interaction_With_ALS  0x00007ff6cea50000 + 219c57d         
+Interaction_With_ALS  0x00007ff6cea50000 + 204e6cc         
+Interaction_With_ALS  0x00007ff6cea50000 + 2044ae1         
+Interaction_With_ALS  0x00007ff6cea50000 + 20935fc         
+Interaction_With_ALS  0x00007ff6cea50000 + ad7e67          
+Interaction_With_ALS  0x00007ff6cea50000 + aedfb6          
+Interaction_With_ALS  0x00007ff6cea50000 + ae2306          
+Interaction_With_ALS  0x00007ff6cea50000 + ae266a          
+Interaction_With_ALS  0x00007ff6cea50000 + ae56ec          
+Interaction_With_ALS  0x00007ff6cea50000 + af6ea4          
+Interaction_With_ALS  0x00007ff6cea50000 + 8b9151a         
+KERNEL32              0x00007ff81aa10000 + 1257d           
+ntdll                 0x00007ff81c8f0000 + 5aa58           
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>41212</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff81c8f0000 + 9f3f4           
+KERNELBASE            0x00007ff819fd0000 + 344ee           
+Interaction_With_ALS  0x00007ff6cea50000 + 2520d72         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ede9e7         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ee0899         
+Interaction_With_ALS  0x00007ff6cea50000 + 1eb4500         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ffa2f5         
+Interaction_With_ALS  0x00007ff6cea50000 + 251db6b         
+Interaction_With_ALS  0x00007ff6cea50000 + 25167e0         
+KERNEL32              0x00007ff81aa10000 + 1257d           
+ntdll                 0x00007ff81c8f0000 + 5aa58           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18516</ThreadID>
+<ThreadName>Foreground Worker #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff81c8f0000 + 9f3f4           
+KERNELBASE            0x00007ff819fd0000 + 344ee           
+Interaction_With_ALS  0x00007ff6cea50000 + 2520d72         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ede9e7         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ee0899         
+Interaction_With_ALS  0x00007ff6cea50000 + 1eb4500         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ffa2f5         
+Interaction_With_ALS  0x00007ff6cea50000 + 251db6b         
+Interaction_With_ALS  0x00007ff6cea50000 + 25167e0         
+KERNEL32              0x00007ff81aa10000 + 1257d           
+ntdll                 0x00007ff81c8f0000 + 5aa58           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>83496</ThreadID>
+<ThreadName>Foreground Worker #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff81c8f0000 + 9f3f4           
+KERNELBASE            0x00007ff819fd0000 + 344ee           
+Interaction_With_ALS  0x00007ff6cea50000 + 2520d72         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ede9e7         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ee0899         
+Interaction_With_ALS  0x00007ff6cea50000 + 1eb4500         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ffa2f5         
+Interaction_With_ALS  0x00007ff6cea50000 + 251db6b         
+Interaction_With_ALS  0x00007ff6cea50000 + 25167e0         
+KERNEL32              0x00007ff81aa10000 + 1257d           
+ntdll                 0x00007ff81c8f0000 + 5aa58           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>82504</ThreadID>
+<ThreadName>Background Worker #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff81c8f0000 + 9f3f4           
+KERNELBASE            0x00007ff819fd0000 + 344ee           
+Interaction_With_ALS  0x00007ff6cea50000 + 2520d72         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ede9e7         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ee0899         
+Interaction_With_ALS  0x00007ff6cea50000 + 1eb4500         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ffa2f5         
+Interaction_With_ALS  0x00007ff6cea50000 + 251db6b         
+Interaction_With_ALS  0x00007ff6cea50000 + 25167e0         
+KERNEL32              0x00007ff81aa10000 + 1257d           
+ntdll                 0x00007ff81c8f0000 + 5aa58           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>54604</ThreadID>
+<ThreadName>Background Worker #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff81c8f0000 + 9f3f4           
+KERNELBASE            0x00007ff819fd0000 + 344ee           
+Interaction_With_ALS  0x00007ff6cea50000 + 2520d72         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ede9e7         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ee0899         
+Interaction_With_ALS  0x00007ff6cea50000 + 1eb4500         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ffa2f5         
+Interaction_With_ALS  0x00007ff6cea50000 + 251db6b         
+Interaction_With_ALS  0x00007ff6cea50000 + 25167e0         
+KERNEL32              0x00007ff81aa10000 + 1257d           
+ntdll                 0x00007ff81c8f0000 + 5aa58           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>54952</ThreadID>
+<ThreadName>Background Worker #4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff81c8f0000 + 9f3f4           
+KERNELBASE            0x00007ff819fd0000 + 344ee           
+Interaction_With_ALS  0x00007ff6cea50000 + 2520d72         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ede9e7         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ee0899         
+Interaction_With_ALS  0x00007ff6cea50000 + 1eb4500         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ffa2f5         
+Interaction_With_ALS  0x00007ff6cea50000 + 251db6b         
+Interaction_With_ALS  0x00007ff6cea50000 + 25167e0         
+KERNEL32              0x00007ff81aa10000 + 1257d           
+ntdll                 0x00007ff81c8f0000 + 5aa58           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>73208</ThreadID>
+<ThreadName>Background Worker #5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff81c8f0000 + 9f3f4           
+KERNELBASE            0x00007ff819fd0000 + 344ee           
+Interaction_With_ALS  0x00007ff6cea50000 + 2520d72         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ede9e7         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ee0899         
+Interaction_With_ALS  0x00007ff6cea50000 + 1eb4500         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ffa2f5         
+Interaction_With_ALS  0x00007ff6cea50000 + 251db6b         
+Interaction_With_ALS  0x00007ff6cea50000 + 25167e0         
+KERNEL32              0x00007ff81aa10000 + 1257d           
+ntdll                 0x00007ff81c8f0000 + 5aa58           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>22268</ThreadID>
+<ThreadName>Background Worker #6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff81c8f0000 + 9f3f4           
+KERNELBASE            0x00007ff819fd0000 + 344ee           
+Interaction_With_ALS  0x00007ff6cea50000 + 2520d72         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ede9e7         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ee0899         
+Interaction_With_ALS  0x00007ff6cea50000 + 1eb4500         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ffa2f5         
+Interaction_With_ALS  0x00007ff6cea50000 + 251db6b         
+Interaction_With_ALS  0x00007ff6cea50000 + 25167e0         
+KERNEL32              0x00007ff81aa10000 + 1257d           
+ntdll                 0x00007ff81c8f0000 + 5aa58           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>54628</ThreadID>
+<ThreadName>Background Worker #7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff81c8f0000 + 9f3f4           
+KERNELBASE            0x00007ff819fd0000 + 344ee           
+Interaction_With_ALS  0x00007ff6cea50000 + 2520d72         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ede9e7         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ee0899         
+Interaction_With_ALS  0x00007ff6cea50000 + 1eb4500         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ffa2f5         
+Interaction_With_ALS  0x00007ff6cea50000 + 251db6b         
+Interaction_With_ALS  0x00007ff6cea50000 + 25167e0         
+KERNEL32              0x00007ff81aa10000 + 1257d           
+ntdll                 0x00007ff81c8f0000 + 5aa58           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>57148</ThreadID>
+<ThreadName>Background Worker #8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff81c8f0000 + 9f3f4           
+KERNELBASE            0x00007ff819fd0000 + 344ee           
+Interaction_With_ALS  0x00007ff6cea50000 + 2520d72         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ede9e7         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ee0899         
+Interaction_With_ALS  0x00007ff6cea50000 + 1eb4500         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ffa2f5         
+Interaction_With_ALS  0x00007ff6cea50000 + 251db6b         
+Interaction_With_ALS  0x00007ff6cea50000 + 25167e0         
+KERNEL32              0x00007ff81aa10000 + 1257d           
+ntdll                 0x00007ff81c8f0000 + 5aa58           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>55184</ThreadID>
+<ThreadName>Background Worker #9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff81c8f0000 + 9f3f4           
+KERNELBASE            0x00007ff819fd0000 + 344ee           
+Interaction_With_ALS  0x00007ff6cea50000 + 2520d72         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ede9e7         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ee0899         
+Interaction_With_ALS  0x00007ff6cea50000 + 1eb4500         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ffa2f5         
+Interaction_With_ALS  0x00007ff6cea50000 + 251db6b         
+Interaction_With_ALS  0x00007ff6cea50000 + 25167e0         
+KERNEL32              0x00007ff81aa10000 + 1257d           
+ntdll                 0x00007ff81c8f0000 + 5aa58           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>83412</ThreadID>
+<ThreadName>Background Worker #10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff81c8f0000 + 9f3f4           
+KERNELBASE            0x00007ff819fd0000 + 344ee           
+Interaction_With_ALS  0x00007ff6cea50000 + 2520d72         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ede9e7         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ee0899         
+Interaction_With_ALS  0x00007ff6cea50000 + 1eb4500         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ffa2f5         
+Interaction_With_ALS  0x00007ff6cea50000 + 251db6b         
+Interaction_With_ALS  0x00007ff6cea50000 + 25167e0         
+KERNEL32              0x00007ff81aa10000 + 1257d           
+ntdll                 0x00007ff81c8f0000 + 5aa58           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>23940</ThreadID>
+<ThreadName>Background Worker #11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff81c8f0000 + 9f3f4           
+KERNELBASE            0x00007ff819fd0000 + 344ee           
+Interaction_With_ALS  0x00007ff6cea50000 + 2520d72         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ede9e7         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ee0899         
+Interaction_With_ALS  0x00007ff6cea50000 + 1eb4500         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ffa2f5         
+Interaction_With_ALS  0x00007ff6cea50000 + 251db6b         
+Interaction_With_ALS  0x00007ff6cea50000 + 25167e0         
+KERNEL32              0x00007ff81aa10000 + 1257d           
+ntdll                 0x00007ff81c8f0000 + 5aa58           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>83904</ThreadID>
+<ThreadName>Background Worker #12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff81c8f0000 + 9f3f4           
+KERNELBASE            0x00007ff819fd0000 + 344ee           
+Interaction_With_ALS  0x00007ff6cea50000 + 2520d72         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ede9e7         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ee0899         
+Interaction_With_ALS  0x00007ff6cea50000 + 1eb4500         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ffa2f5         
+Interaction_With_ALS  0x00007ff6cea50000 + 251db6b         
+Interaction_With_ALS  0x00007ff6cea50000 + 25167e0         
+KERNEL32              0x00007ff81aa10000 + 1257d           
+ntdll                 0x00007ff81c8f0000 + 5aa58           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>39932</ThreadID>
+<ThreadName>Background Worker #13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff81c8f0000 + 9f3f4           
+KERNELBASE            0x00007ff819fd0000 + 344ee           
+Interaction_With_ALS  0x00007ff6cea50000 + 2520d72         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ff9f99         
+Interaction_With_ALS  0x00007ff6cea50000 + 251db6b         
+Interaction_With_ALS  0x00007ff6cea50000 + 25167e0         
+KERNEL32              0x00007ff81aa10000 + 1257d           
+ntdll                 0x00007ff81c8f0000 + 5aa58           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>82708</ThreadID>
+<ThreadName>BackgroundThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff81c8f0000 + 9f3f4           
+KERNELBASE            0x00007ff819fd0000 + 344ee           
+Interaction_With_ALS  0x00007ff6cea50000 + 2520d72         
+Interaction_With_ALS  0x00007ff6cea50000 + 1ff9f99         
+Interaction_With_ALS  0x00007ff6cea50000 + 251db6b         
+Interaction_With_ALS  0x00007ff6cea50000 + 25167e0         
+KERNEL32              0x00007ff81aa10000 + 1257d           
+ntdll                 0x00007ff81c8f0000 + 5aa58           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12404</ThreadID>
+<ThreadName>BackgroundThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack></CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20764</ThreadID>
+<ThreadName>FHeartBeatThread</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>true</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+<EngineData>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
